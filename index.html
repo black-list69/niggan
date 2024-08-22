@@ -1,11 +1,52 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Arrendamento de Veículos</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>carlos niggan</h1>
+    <header>
+        <h1>Arrendamento de Veículos</h1>
+        <nav>
+            <ul>
+                <li><a href="#consulta">Consulta de Veículos</a></li>
+                <li><a href="#disponiveis">Veículos Disponíveis</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="consulta">
+            <h2>Consulta de Veículos</h2>
+            <form id="vehicle-form">
+                <label for="tipo">Tipo de Veículo:</label>
+                <select id="tipo" name="tipo">
+                    <option value="carro">Carro</option>
+                    <option value="moto">Moto</option>
+                    <option value="van">Van</option>
+                </select>
+                
+                <label for="data">Data de Início:</label>
+                <input type="date" id="data" name="data">
+                
+                <button type="submit">Consultar Disponibilidade</button>
+            </form>
+        </section>
+
+        <section id="disponiveis">
+            <h2>Veículos Disponíveis</h2>
+            <ul id="vehicle-list">
+                <!-- Lista de veículos será inserida aqui pelo JavaScript -->
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Arrendamento de Veículos. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
