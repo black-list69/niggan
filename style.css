@@ -4,7 +4,7 @@ body {
     padding: 0;
     box-sizing: border-box;
 }
-elemento {
+elements {
   background-image: url('zael.jpeg');
   background-size: cover; 
   background-position: center; 
