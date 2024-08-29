@@ -5,7 +5,7 @@ body {
     box-sizing: border-box;
 }
 elemento {
-  background-image: url('/zael.jpeg');
+  background-image: url('zael.jpeg');
   background-size: cover; 
   background-position: center; 
   background-repeat: no-repeat;
