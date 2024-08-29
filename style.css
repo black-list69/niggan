@@ -4,7 +4,12 @@ body {
     padding: 0;
     box-sizing: border-box;
 }
-
+elemento {
+  background-image: url('caminho/para/sua/imagem.jpg');
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat;
+}
 header {
     background-color: #333;
     color: white;
