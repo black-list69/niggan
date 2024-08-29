@@ -3,13 +3,13 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-image: url('zael.jpeg');
-    background-size: cover; 
-    background-position: center; 
-    background-repeat: no-repeat;
+    background-image: url('caminho/para/sua/imagem.jpg');
+    background-size: cover; /* Ajusta o tamanho da imagem para cobrir o elemento */
+    background-position: center; /* Centraliza a imagem no elemento */
+    background-repeat: no-repeat; /* Evita a repetição da imagem */
 }
+
 header {
-    /*muda cor do titulo*/
     background-color: #333;
     color: green;
     padding: 10px 0;
